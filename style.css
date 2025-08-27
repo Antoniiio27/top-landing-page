@@ -22,8 +22,8 @@ body {
 }
 
 .header-logo {
-  font-size: 24px;
   color: #f9faf8;
+  font-size: 24px;
 }
 
 .header h3,
@@ -38,17 +38,17 @@ ul {
 }
 
 .header-title {
-  font-size: 48px;
   color: #f9faf8;
+  font-size: 48px;
   font-weight: 900;
 }
 
 .header-subtitle,
 .signup-button-primary,
 a {
+  color: #e5e7eb;
   font-size: 18px;
   font-weight: 200;
-  color: #e5e7eb;
   margin-top: 8px;
 }
 
@@ -71,6 +71,40 @@ img {
 
 .information-container {
   background-color: white;
+  padding: 64px 192px 96px;
+}
+
+.information-title h1 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.information-list {
+  display: flex;
+  justify-content: center;
+}
+
+.information-item {
+  flex-wrap: wrap;
+  text-align: center;
+  width: 160px;
+  margin: 32px;
+}
+
+.information-image {
+  border: 4px solid #0275d8;
+  width: 160px;
+  height: 160px;
+  border-radius: 16px;
+}
+
+.information-text {
+  color: grey;
+  font-size: 16px;
+  font-weight: regular;
+  margin-top: 8px;
 }
 
 .quote-container {
