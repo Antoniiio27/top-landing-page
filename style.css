@@ -109,4 +109,63 @@ img {
 
 .quote-container {
   background-color: #e5e7eb;
+  padding: 96px 128px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.signup-container {
+  background-color: white;
+  padding: 96px 128px;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 48px 96px;
+  border-radius: 12px;
+}
+
+.signup-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.signup-subtitle {
+  color: white;
+  font-size: 18px;
+  font-weight: regular;
+}
+
+.signup-button-secondary {
+  background-color: transparent;
+  border-color: white;
+  border-radius: 8px;
+  padding: 4px 24px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-container {
+  background-color: #1f2937;
+  padding: 48px;
+}
+
+.footer {
+  text-align: center;
+  color: #f9faf8;
 }
