@@ -12,6 +12,61 @@ body {
 
 .header-container {
   background-color: #1f2937;
+  padding: 32px 192px 96px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header h3,
+.header a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.header-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.header-subtitle,
+.signup-button-primary,
+a {
+  font-size: 18px;
+  font-weight: 200;
+  color: #e5e7eb;
+  margin-top: 8px;
+}
+
+.signup-button-primary {
+  background-color: #0275d8;
+  padding: 4px 32px;
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-text,
+img {
+  flex: 1;
 }
 
 .information-container {
